@@ -20,6 +20,7 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': 'off',
     'curly': 'error',
+    "newline-before-return": "error",
     "eol-last": ["error"],
     "max-len": ["error", { "code": 100 }],
     "padding-line-between-statements": [
